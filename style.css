@@ -1,0 +1,247 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-section {
+    background-color:  #465940;
+    
+}
+
+.register_btn {
+    background-color: #FDFBF0;
+    color: #465940;
+}
+
+.register_btnN {
+   background-color: #FCBD16;
+   color: #FDFBF0;
+}
+
+.hero-section {
+    background-color:  #465940;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0;
+    
+}
+
+.navbar-brand h2 {
+    color:  #FDFBF0;
+    font-weight: 700;
+}
+
+.nav-link  {
+    color: white;
+}
+
+.navv {
+    color: white;
+}
+
+.get-btn {
+    background-color: #FCBD16;
+    color: #FDFBF0;
+}
+
+.stats-section {
+    background-color: #FDFBF0;
+    padding: 80px 0;
+}
+
+.stat-box {
+    background-color:  #465940;
+    color: #FDFBF0;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    
+}
+
+.enroll-btn {
+    background-color: #465940;
+    color: #FDFBF0;
+    border-radius: 8px;
+}
+
+.enroll-btn:hover {
+    background-color:#00401e;
+    color: white;
+}
+
+.card-section {
+    background-color: #465940;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.card-title  {
+    color: #465940;
+}
+
+.text-darkii {
+    color: #00401e;
+}
+
+.testimonial-section{
+    background-color: #FDFBF0;
+}
+
+.t-t, .f-hh {
+    color: #465940;
+}
+
+.test-card {
+    background-color: #465940;
+    color: #FDFBF0;
+}
+
+.tes-c {
+    color: #FCBD16;
+}
+
+.contact-section {
+    background-color:#465940;
+}
+
+.t-h {
+    color: #FDFBF0;
+}
+
+.t-p {
+    color: #FCBD16;
+}
+
+.input-t {
+  color: #465940;
+}
+
+.footer-section {
+   background-color:#FDFBF0;
+   padding: 60px 0 30px 0;
+}
+.footer-link {
+    color:#465940;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon {
+    color:#465940;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar-brand h2 {
+        font-size: 22px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        padding: 40px 20px;
+        min-height: auto;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem !important; /* overrides display-3 */
+    }
+
+    .hero-section p {
+        font-size: 0.95rem;
+    }
+
+    .hero-section .d-flex {
+        flex-direction: column; /* buttons stack vertically */
+        align-items: center;
+    }
+
+    .hero-section .btn {
+        width: 100%; /* buttons go full width */
+    }
+
+    /* Stats Section */
+    .stats-section {
+        padding: 40px 20px;
+    }
+
+    .stat-box {
+        margin-bottom: 10px;
+    }
+
+    /* Courses Section */
+    .card-section {
+        padding: 40px 20px;
+    }
+
+    .card-section h2 {
+        font-size: 1.8rem !important;
+    }
+
+    /* Testimonials */
+    .testimonial-section {
+        padding: 40px 20px;
+    }
+
+    .t-t {
+        font-size: 1.8rem !important;
+    }
+
+    /* Contact Section */
+    .contact-section {
+        padding: 40px 20px;
+    }
+
+    .contact-section h2 {
+        font-size: 1.8rem !important;
+    }
+
+    .contact-section .d-flex {
+        flex-direction: column; /* input and button stack */
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .contact-section .form-control {
+        width: 100% !important; /* input goes full width */
+        margin-bottom: 10px;
+    }
+
+    .contact-section .btn {
+        width: 100%; /* button goes full width */
+    }
+
+    /* Footer */
+    .footer-section {
+        padding: 40px 20px;
+        text-align: center; /* everything centered on mobile */
+    }
+
+    .footer-section .col-12 {
+        margin-bottom: 20px;
+    }
+
+    .social-icon {
+        font-size: 1.5rem !important;
+    }
+
+    .footer-section .d-flex {
+        justify-content: center; /* social icons centered */
+    }
+
+    .footer-section ul {
+        padding: 0;
+    }
+
+}
